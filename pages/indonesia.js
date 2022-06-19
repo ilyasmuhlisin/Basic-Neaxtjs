@@ -1,8 +1,9 @@
 import React from "react";
+import IndexPage from "../components/Dashboard/IndexPage";
 
 class Indonesia extends React.Component {
   render() {
-    return "hello";
+    return <IndexPage isGlobal={false} />;
   }
 }
 
