@@ -1,5 +1,6 @@
 import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
+import CardStatus from "./CardStatus";
 
 function IndexPage() {
   const contentStyle = {
@@ -23,6 +24,7 @@ function IndexPage() {
             </p>
           </div>
         </div>
+        <CardStatus />
       </div>
       <Footer
         rightContent={""}
